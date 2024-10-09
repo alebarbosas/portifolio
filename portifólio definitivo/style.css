@@ -1,0 +1,153 @@
+/* Fonte importada do google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-color: #b865bb;
+    --text-color1: #ffffff;
+    --bg-color1: #a357d6;
+    --bg-color2: #e5b0ec;
+    --color--00: #0000001a;
+
+    /* Extra */
+    --color-01: #975499; 
+    --color-02: #fb79ff; 
+    --color-03: #490c4b; 
+    --color-04: #e60aee; 
+    --color-05: #e7b9e9; 
+
+
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+
+}
+
+body{
+    background-color: var(--bg-color1);
+    color: var(--text-color1);
+    text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.1rem;
+    background-color: var(--bg-color2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border: solid 1px var(--color--00)
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: var(--text-color1);
+    font-weight: 600;
+    cursor: default;
+
+}
+
+.nav a {
+    font-size: 1.2rem;
+    color: var(--text-color1);
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+    border: solid 1px var(--color--00)
+}
+.nav a:hover{
+    color: var(--main-color)
+}
+section{
+    min-height: 100hv;
+    padding: 6rem 6rem 2rem;
+    border: solid 1px var(--color--00)
+}
+
+span{
+    --color: var(var(--main-color))
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+.inicio-img img {
+    width: 100%;
+    
+}
+
+.conteudo-inicial h1 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    line-height: 1.3;
+}
+.conteudo-inicial h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+
+
+}
+
+.sobre-mim{
+    display: table-row;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;  
+    align-items: right;
+}
+
+.sobre-mim-img img{
+    width: 35%;
+}
+.sobre-conteudo h2{
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 1.3;
+}
+
+.conteudo-inicial p ,.sobre-conteudo p{
+    margin-top: 1.2 rem;
+    text-align: center;
+
+}
+
+.projetos h2,
+.contato h2{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.projetos{
+    display: table-row ;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;  
+    align-items: right;
+}
+.projetos-imagens img, .projetos-imagens2 img, .projetos-imagens3 img{
+    width: 35%;
+}
+
+.lista{
+    text-align: center;
+}
+
+.meus-contatos{
+    width: 100%;
+    font-size: 1.5rem;
+}
